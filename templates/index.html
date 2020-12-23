@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Swaad-Anusaar</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='all.min.css')}}" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='templatemo-style.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='modalcss.css')}}" />
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Top box -->
+    <!-- Logo & Site Name -->
+    <div class="placeholder">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="/static/images/resto.jpg">
+        <div class="tm-header">
+          <div class="row tm-header-inner">
+            <div class="col-md-6 col-12">
+              <img src="../static/images/simple-house-logo.png" alt="Logo" class="tm-site-logo" />
+              <div class="tm-site-text-box">
+                <h1 class="tm-site-title">Swaad-Anusaar</h1>
+                <h6 class="tm-site-description">
+                  Don't wait to order your plate!
+                </h6>
+              </div>
+            </div>
+            <nav class="col-md-6 col-12 tm-nav">
+              <ul class="tm-nav-ul">
+                <li class="tm-nav-li">
+                  <a href="#" class="tm-nav-link active HOME">Home</a>
+                </li>
+                <li class="tm-nav-li">
+                  <a href="menu" class="tm-nav-link MENU">Menu</a>
+                </li>
+                <li class="tm-nav-li">
+                  <a href="#msg" class="tm-nav-link ORDER">Order</a>
+                </li>
+                <li class="tm-nav-li">
+                  <a href="#Swaad" class="tm-nav-link CHAT">Chat</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <header class="row tm-welcome-section">
+        <h2 class="col-12 text-center tm-section-title">
+          <b>Welcome to Swaad-Anusaar</b>
+        </h2>
+        <p class="col-12 text-center">
+          At Swaad-Anusaar, you get all the best dishes with the right flavour
+          and aroma. And guess what, you don't have to wait for the waiter to
+          arrive at your table, just talk to our bot Mr.Swaad and he'll get
+          your order right away to the chef.
+        </p>
+        <p class="col-12 text-center">
+          We also take online orders and guarantee a safe delivery within 45
+          mins right at your doorstep!
+        </p>
+        <button type="button" class="button1">
+          <a href="#Swaad" class="talk" style="text-decoration: none;">Order online now!
+          </a>
+        </button>
+      </header>
+
+      <!-- Gallery -->
+      <div class="row tm-gallery">
+        <!-- gallery page 1 -->
+        <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+              <img src="/static/images/indian.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+              <figcaption>
+                <h4 class="tm-gallery-title">Indian</h4>
+                <p class="tm-gallery-description">
+                  Wait no more for your favourite spices from India as we
+                  bring you the best Indian Thaalis.
+                </p>
+                <p class="tm-gallery-price">Rs.300-400</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+              <img src="/static/images/italian.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+              <figcaption>
+                <h4 class="tm-gallery-title">Italian</h4>
+                <p class="tm-gallery-description">
+                  Obsessed with pizzas, pastas and pastries? Try our Italian
+                  cuisine and you'll go 'Ma-mamia!'
+                </p>
+                <p class="tm-gallery-price">Rs.450-600</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+              <img src="/static/images/chinese.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+              <figcaption>
+                <h4 class="tm-gallery-title">Chinese</h4>
+                <p class="tm-gallery-description">
+                  You don't have to necessarily spell 'Schezwan' correctly,
+                  but you've got to try our Chinese specials.
+                </p>
+                <p class="tm-gallery-price">Rs.400-500</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+            <figure>
+              <img src="/static/images/thai.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+              <figcaption>
+                <h4 class="tm-gallery-title">Thai</h4>
+                <p class="tm-gallery-description">
+                  Nothing's better than a Thai lunch with your family on a
+                  sunday afternoon.
+                </p>
+                <p class="tm-gallery-price">Rs.550-650</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <button type="button" class="button1">
+            <a href="#Swaad" class="talk" style="text-decoration: none;">Talk to Mr.Swaad
+            </a>
+          </button>
+        </div>
+        <!-- gallery page 1 -->
+      </div>
+
+      <div class="tm-section tm-container-inner">
+        <div class="row">
+          <div class="col-md-6">
+            <figure class="tm-description-figure">
+              <img src="/static/images/swaad.png" alt="Image" class="img-fluid" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="tm-description-box">
+              <h4 class="tm-gallery-title">About Mr.Swaad</h4>
+              <p class="tm-mb-45">
+                Mr.Swaad is a rule-based AI chatbot developed to simply
+                cut-out the waiting period that customers experience during
+                the peak-hours of our restaurant. Customers can simply chat
+                with Mr.Swaad placed on their tables and get their orders done
+                without much effort. For instructions on how to order your
+                favorite dish,<a href="instruct" style="text-decoration: none;">
+                  click here.</a>
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container">
+      <div class="alert alert-danger" role="alert">
+        <b>Customer: </b> {{user_response}}
+      </div>
+      <div class="alert alert-dark" role="alert">
+        <b>Mr.Swaad: </b> {{robo_response}}
+      </div>
+
+      <form action="/process" autocomplete="off" method="POST" id="Swaad">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Type here:</label>
+          <input type="text" name="user_response" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp" placeholder="Talk to Mr.Swaad" /><br />
+          <button type="submit" class="btn btn-primary">Talk</button>
+        </div>
+      </form>
+
+      <button type="submit" class="btn btn-primary">
+        <a href="menu" class="talk" style="text-decoration: none;">Go to food menu</a>
+      </button>
+      <br /><br /><br />
+
+      <div class="container">
+        <form method="post" autocomplete="off" action="/send" id="msg">
+          <h2 style="text-align: center;">
+            <b> Send a text and place your order now!! </b>
+          </h2>
+          <h6 style="text-align: center;">
+            (for home delivery, please mention your address alongwith your
+            dish)
+          </h6>
+          <label for="inputMessage" class="sr-only">Message</label>
+          <input type="text" name="user_message" class="form-control" placeholder="Message" required /><br />
+          <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Confirm Order!!</button><br />
+
+          <!-- Button trigger modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Order Confirmation
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <h3>Your order has been confirmed</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1>Payment Area</h1>
+          <h5>
+            (For home delivery you can choose Cash on Delivery or pay using
+            your card.)
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12">
+          <h3>What did you order?</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form action="/process1" method="POST" autocomplete="off">
+        <div class="form-row">
+          <div class="form-group required col-md-8">
+            <label>Starter</label>
+            <select class="form-control" name="starter" required>
+              <option selected>None</option>
+              <option>Cheese Balls</option>
+              <option>Samosas</option>
+              <option>Wings</option>
+            </select>
+          </div>
+          <div class="form-group required col-md-4">
+            <label>Quantity</label>
+            <select class="form-control" name="starter_qty" required>
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group required col-md-8">
+            <label>Main Course</label>
+            <select id="starter" class="form-control" name="main_course" required>
+              <option selected>None</option>
+              <option>Chicken Biryani</option>
+              <option>Schezwan rice</option>
+              <option>Pizza</option>
+            </select>
+          </div>
+          <div class="form-group required col-md-4">
+            <label>Quantity</label>
+            <select class="form-control" name="main_course_qty" required>
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group required col-md-8">
+            <label>Dessert</label>
+            <select id="starter" class="form-control" name="dessert" required>
+              <option selected>None</option>
+              <option>Chocolate shake</option>
+              <option>Ice cream</option>
+              <option>Gulab Jamun</option>
+            </select>
+          </div>
+          <div class="form-group required col-md-4">
+            <label>Quantity</label>
+            <select class="form-control" name="dessert_qty" required>
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+
+        <input type="submit" class="btn btn-primary" name="Total" />
+      </form>
+      <br />
+      <div class="alert alert-danger" role="alert">
+        <b>Grand Total: </b> {{grandTotal}}
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12">
+          <h2>How would you like to pay Rs.{{grandTotal}} ?</h2>
+        </div>
+        <div class="col-12 pay">
+          <a href="cash"><i class="fas fa-money-bill-alt"></i></a>
+          <a href="card"><i class="fas fa-credit-card"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <footer class="tm-footer text-center">
+      <p>
+        Designed by
+        <a href="https://www.linkedin.com/in/rohit-vishwakarma-657a3b183/">Rohit Vishwakarma.</a>
+      </p>
+    </footer>
+  </div>
+
+  <style>
+    .HOME,
+    .MENU,
+    .ORDER,
+    .CHAT {
+      text-decoration: none;
+      color: white;
+    }
+
+    .HOME:hover,
+    .MENU:hover,
+    .ORDER:hover,
+    .CHAT:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .pay a {
+      padding: 3rem;
+      font-size: 2.5rem;
+    }
+
+    .pay a:hover {
+      color: crimson;
+    }
+  </style>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Handle click on paging links
+      $(".tm-paging-link").click(function (e) {
+        e.preventDefault();
+
+        var page = $(this).text().toLowerCase();
+        $(".tm-gallery-page").addClass("hidden");
+        $("#tm-gallery-page-" + page).removeClass("hidden");
+        $(".tm-paging-link").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#resetform").click(function () {
+        $("#chatbox")[0].reset();
+      });
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

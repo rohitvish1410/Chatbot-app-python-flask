@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <title>Cash on Delivery</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center" style="color: white;">Cash on Delivery</h2>
+      <form
+        action="https://script.google.com/macros/s/AKfycbyZTnWvjEfvwgzClGrfttYIGSEyNSQ0qLzmdvNH/exec"
+        method="POST"
+        autocomplete="off"
+      >
+        <div class="form-row">
+          <div class="form-group required col-md-6">
+            <label for="inputName" style="color: white;">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              placeholder="Enter your full name"
+              name="Name"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group required">
+          <label for="inputAddress" style="color: white;">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+            name="AddressLine1"
+            required
+          />
+        </div>
+        <div class="form-group required">
+          <label for="inputAddress2" style="color: white;">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+            name="AddressLine2"
+            required
+          />
+        </div>
+        <div class="form-row">
+          <div class="form-group required col-md-4">
+            <label for="inputCity" style="color: white;">City</label>
+            <select id="inputCity" class="form-control" name="City" required>
+              <option selected>Choose...</option>
+              <option>Mumbai</option>
+              <option>Navi Mumbai</option>
+              <option>Pune</option>
+            </select>
+          </div>
+          <div class="form-group required col-md-2">
+            <label for="inputZip" style="color: white;">Zip</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputZip"
+              placeholder="Enter 6-digit pincode"
+              name="Zip"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group required">
+          <button class="btn btn-primary">Check out</button>
+        </div>
+      </form>
+    </div>
+
+    <style>
+      body {
+        background: crimson;
+        margin: 0 10px;
+      }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
